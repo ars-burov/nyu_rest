@@ -1,0 +1,22 @@
+.search-bar-container {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    vertical-align: baseline;
+}
+
+.search-field {
+    flex: 5;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+@media (max-width: 680px) {
+    .menu-button-placeholder {
+        width: 25px;
+    }
+}
